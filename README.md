@@ -1,12 +1,8 @@
-# java_template
 
-
-
-#### By _**Paul Hess**_
 
 ## Description
 
-template for basic student project file structure
+practice in java, gradle, velocity, and sparkJava
 
 ## Setup/Installation Requirements
 
@@ -50,4 +46,4 @@ _To contact, leave a comment on Github._
 
 *MIT License*
 
-Copyright (c) 2016 **_Paul Hess_**
+Copyright (c) 2016 **_Arlen Burton_** and s**_Paul Hess_**
