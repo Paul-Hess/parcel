@@ -15,6 +15,22 @@ public class App {
       return new ModelAndView(model, layout);
     }, new VelocityTemplateEngine());
 
+    get("/package", (request, response) -> {
+      Map<String, Object> model = new HashMap<String, Object>();
+
+      int width = Integer.parseInt(request.queryParams("Width"));
+      int length = Integer.parseInt(request.queryParams("Length"));
+      int depth = Integer.parseInt(request.queryParams("Depth"));
+      int weight = Integer.parseInt(request.queryParams("Weight"));
+
+      Package myPackage = new Package(width, length, depth, weight);
+      model.put("myPackage", myPackage);
+
+      model.put("template", "templates/package.vtl");
+      return new ModelAndView(model, layout);
+    }, new VelocityTemplateEngine());
+
+
   }
 
 }

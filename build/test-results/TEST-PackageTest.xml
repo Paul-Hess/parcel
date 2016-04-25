@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PackageTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2016-04-25T21:44:53" hostname="epicodus-67.local" time="0.003">
+  <properties/>
+  <testcase name="PackageTest_InstantiatePackageLength_int" classname="PackageTest" time="0.0"/>
+  <testcase name="PackageTest_InstantiatePackageDepth_int" classname="PackageTest" time="0.0"/>
+  <testcase name="PackageTest_FindPackageCost_String" classname="PackageTest" time="0.001"/>
+  <testcase name="PackageTest_FindPackageVolume_int" classname="PackageTest" time="0.001"/>
+  <testcase name="PackageTest_InstantiatePackageWidth_int" classname="PackageTest" time="0.001"/>
+  <testcase name="PackageTest_InstantiatePackageWeight_int" classname="PackageTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

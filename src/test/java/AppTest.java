@@ -23,4 +23,15 @@ public class AppTest extends FluentTest {
     goTo("http://localhost:4567/");
   }
 
-} 
+  @Test
+  public void containsPackageTest() {
+    goTo("http://localhost:4567/");
+    fill("#Length").with("2");
+    fill("#Width").with("2");
+    fill("#Depth").with("2");
+    fill("#Weight").with("2");
+    submit(".btn");
+    assertThat(pageSource()).contains("8.00 to ship!");
+  }
+
+}
